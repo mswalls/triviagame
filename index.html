@@ -12,31 +12,76 @@
 </head>
 
 <body>
-<h1>Trivia Game</h1>
+    <h1>Art history Trivia</h1>
 
+    <div>
+        <button id="startgame">Click me</button>
+    </div>
 
     <div class="timer"></div>
-    <div class="question"></div>
-    <div class="answer"></div>
 
-    <div>
-        <button class="choice" id="choicea"><h3>A</h3></button>
-    </div>
-    <div>
-        <button class="choice" id="choiceb"><h3>B</h3></button>
-    </div>
-    <div>
-        <button class="choice" id="choicec"><h3>C</h3></button>
-    </div>
-    <div>
-    <button class="choice" id="choiced"><h3>D</h3></button>
-    </div>
+    <div class="wrapper" id="game">
+        <div class="question" id="q1">
+            <p>"What artist was sentenced to death by the Pope after killing a man?"</p>
+            <input type="radio" name="a1">Francisco Goya</input>
+            <input type="radio" name="a1">Cravaggio</input>
+            <input type="radio" name="a1">Titian</input>
+            <input type="radio" name="a1">Raphael</input>
+        </div>
 
-    <div>
-    <p><button class="start" id="startbtn">start game</button></p>
-    </div>
+        <div class="question" id="q2">
+            <p>"Who painted The Persistence of Memory?"</p>
+            <input type="radio" name="a2">Salvador Dalí</input>
+            <input type="radio" name="a2">Jean-Michel Basquiat</input>
+            <input type="radio" name="a2">Gustav Klimt</input>
+            <input type="radio" name="a2">Vija Celmins</input>
+        </div>
 
-    <script src="assets/javascript/app.js"></script>
+        <div class="question" id="q3" ?>
+            <p>"Sold on November 15th 2017 Leonardo da Vinci's
+                <i>Salvator Mundi</i> became the highest pride paid for a painting at what price(in millions)?"</p>
+            <input type="radio" name="a3">275</input>
+            <input type="radio" name="a3">194.6</input>
+            <input type="radio" name="a3">313</input>
+            <input type="radio" name="a3">450.3</input>
+        </div>
+
+        <div class="question" id="q4">
+            <p>"How long did it take Leonardo da Vinci to paint the Mona Lisa's lips?"</p>
+            <input type="radio" name="a4">12 hours</input>
+            <input type="radio" name="a4">12 weeks</input>
+            <input type="radio" name="a4">12 days</input>
+            <input type="radio" name="a4">12 years</input>
+        </div>
+
+        <div class="question" id="q5">
+            <p>"What is the term for visible traces of an earlier painting beneath newer artwork on canvas?"</p>
+            <input type="radio" name="a5">Sgraffito</input>
+            <input type="radio" name="a5">Grisaille</input>
+            <input type="radio" name="a5">Pentimento</input>
+            <input type="radio" name="a5">Sinopia</input>
+        </div>
+
+        <div class="question" id="q6">
+            <p>"What art movement literally means the style of 'the wild beasts'?"</p>
+            <input type="radio" name="a6">Fauvism</input>
+            <input type="radio" name="a6">Dadaism</input>
+            <input type="radio" name="a6">Primitivism</input>
+            <input type="radio" name="a6">Modernism</input>
+
+        </div>
+        <div>
+                <p>
+                    <button class="start" id="startbtn">start game</button>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <button class="reset" id="resetbtn">Reset</button>
+                </p>
+            </div>
+    </div>
+      <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>

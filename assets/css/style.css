@@ -4,9 +4,6 @@ h1 {
 }
 
 
-
-.choice {
-    float: left;
-    Height: 50px;
-    width: 80px;
+.wrapper {
+    display:none;
 }
